@@ -1,6 +1,6 @@
-const data = require('../data/lyrics')
-const seed = require('./seed')
-const db = require('../connection')
+const data = require('../data/lyrics/index.js')
+const seed = require('./seed.js')
+const db = require('../connection.js')
 
 const runSeed = () => {
   return seed(data).then(() => db.end())
