@@ -1,4 +1,4 @@
-const data = require('../data/lyrics/index.js')
+const data = require('../data/lyrics.js')
 const seed = require('./seed.js')
 const db = require('../connection.js')
 
